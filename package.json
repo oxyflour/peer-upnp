@@ -1,21 +1,27 @@
 {
-	"name" : "peer-upnp",
-	"description" : "Nodejs implementation of the UPnP Device Architecture 1.1",
-	"version" : "0.0.5",
-	"author" : {
-		"name" : "Louay Bassbouss",
-		"email" : "louay.bassbouss@fokus.fraunhofer.de"
+	"name": "peer-upnp",
+	"description": "Nodejs implementation of the UPnP Device Architecture 1.1",
+	"version": "0.0.5",
+	"author": {
+		"name": "Louay Bassbouss",
+		"email": "louay.bassbouss@fokus.fraunhofer.de"
 	},
 	"repository": "https://github.com/fraunhoferfokus/peer-upnp.git",
-	"keywords" : [ "upnp", "dlna", "ssdp", "soap", "nsd" ],
-	"main" : "index",
-	"dependencies" : {
-		"xml2js" : "latest",
-		"peer-ssdp": "0.0.5",
+	"keywords": [
+		"upnp",
+		"dlna",
+		"ssdp",
+		"soap",
+		"nsd"
+	],
+	"main": "index",
+	"dependencies": {
 		"ejs": "0.8.4",
-		"node-uuid": "1.4.0"
+		"node-uuid": "1.4.0",
+		"peer-ssdp": "0.0.5",
+		"xml2js": "^0.4.19"
 	},
-	"readmeFilename" : "Readme.md",
-	"_id" : "peer-upnp@0.0.5",
-	"_from" : "peer-upnp@*"
+	"readmeFilename": "Readme.md",
+	"_id": "peer-upnp@0.0.5",
+	"_from": "peer-upnp@*"
 }
